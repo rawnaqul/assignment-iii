@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Deals</a>
+                            <a class="nav-link" href="#deal-register">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Success</a>
+                            <a class="nav-link" href="#ex-students">Success</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">About</a>
@@ -49,8 +49,8 @@
     <br>
     <main class="container">
 
-        <!-- hero section -->
-        <section class="my-5">
+        <!-- hero section -- banners -->
+        <section class="my-5" id="home">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators d-none d-md-inline text-center">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -105,8 +105,8 @@
             </div>
         </section>
         <br>
-        <!-- 2nd section -->
-        <section class="">
+        <!-- 2nd section -- courses -->
+        <section class="" id="courses">
             <h1 class="text-center fw-bold fs-1">Discover Our Popular Courses</h1>
             <p class="text-center lh-1 mt-3 fs-6"><strong>Take one of ProEdu’s range of Web development courses and
                     learn how
@@ -202,22 +202,28 @@
             </div>
         </section>
         <br>
-        <!-- 3rd section -->
+        <!-- 3rd section -- blog -->
         <section>
             <div class="d-flex flex-column flex-md-row p-2 rounded bg-light shadow-sm align-items-center">
                 <div class="">
                     <img src="images/working.png" class="rounded img-fluid" alt="">
                 </div>
-                <div class="ms-lg-5">
-                    <h1 class="fw-bold mt-3">Explore The Learning Institute</h1>
+                <div class="ms-md-4">
+                    <h2 class="fw-bold mt-2">Explore The Learning Institute</h2>
                     <p>Why you should not waste anymore of your time and do something productive & Some good things
                         about the institute</p>
-                    <div class="my-4">
-                        <h5 class="text-info fw-bolder fst-italic" style="--bs-text-opacity: .5;">3.2k+ Online Course
+                    <div class="my-2">
+                        <h5 class="text-info fw-bolder fst-italic" style="--bs-text-opacity: .5;">3.2k+ <p
+                                class="text-black-50 fs-6">Online Courses
+                            </p>
                         </h5>
-                        <h5 class="text-info fw-bolder fst-italic" style="--bs-text-opacity: .5;">600+ Expert Members
+                        <h5 class="text-info fw-bolder fst-italic" style="--bs-text-opacity: .5;">600+ <p
+                                class="text-black-50 fs-6">Expert Members
+                            </p>
                         </h5>
-                        <h5 class="text-info fw-bolder fst-italic" style="--bs-text-opacity: .5;">1k+ Ratings & Reviws
+                        <h5 class="text-info fw-bolder fst-italic" style="--bs-text-opacity: .5;">1k+ <p
+                                class="text-black-50 fs-6">Ratings & Review
+                            </p>
                         </h5>
                     </div>
                     <button type="button" class="btn btn-outline-info">Read More</button>
@@ -225,8 +231,8 @@
             </div>
         </section>
         <br>
-        <!-- 4th section -->
-        <section class="my-5">
+        <!-- 4th section -- CTA -->
+        <section class="my-5" id="deal-register">
             <div class="card bg-info bg-opacity-25">
                 <h4 class="card-header">Ready To Join?</h4>
                 <div class="card-body d-flex flex-column flex-md-row justify-content-between">
@@ -283,47 +289,45 @@
                 </div>
             </div>
         </section>
-        <!-- 5th section -->
-        <section class="my-5 p-1 p-md-3">
+        <!-- 5th section --success stories -->
+        <section class="my-5 p-1 p-md-3" id="ex-students">
             <h1 class="text-center">Meet Our Succeccful Students</h1>
             <p class="text-center mb-4">I'll put some good words here.</p>
-            <div class="">
-                <div class="container text-center">
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3">
-                        <div class="col">
-                            <div class="card mx-auto my-3" style="width: 18rem;">
-                                <img src="images/student/student-1.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                </div>
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col">
+                        <div class="card my-3">
+                            <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4>Mark Luke</h4>
+                                <p class="card-text">Nice guy</p>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card mx-auto my-3" style="width: 18rem;">
-                                <img src="images/student/student-2.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-3">
+                            <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4>Gloria Silva</h4>
+                                <p class="card-text">Some cute model</p>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card mx-auto my-3" style="width: 18rem;">
-                                <img src="images/student/student-4.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-3">
+                            <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4>Santa Maria</h4>
+                                <p class="card-text">xyz</p>
                             </div>
                         </div>
-                        <div class="col d-lg-none d-xl-inline">
-                            <div class="card mx-auto my-3" style="width: 18rem;">
-                                <img src="images/student/student-4.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-3">
+                            <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4>Alex D.</h4>
+                                <p class="card-text">Random Guy.</p>
                             </div>
                         </div>
                     </div>
@@ -348,11 +352,12 @@
                             </div>
                             <div class="card-body">
                                 <blockquote class="blockquote mb-0">
-                                    <p>A well-known quote, contained in a blockquote element.</p>
+                                    <p class="fw-light">I love the step by step process. This course is making me apply
+                                        what I learn in my own creative way.</p>
                                     <img src="images/student/student-5.png" alt="">
                                     <br>
-                                    <footer class="blockquote-footer ms-5">Someone famous in <cite
-                                            title="Source Title">Source Title</cite></footer>
+                                    <footer class="blockquote-footer ms-5">Robb Someone in Web Dev <cite
+                                            title="Source Title">(Ex-student via FB)</cite></footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -370,11 +375,12 @@
                             </div>
                             <div class="card-body">
                                 <blockquote class="blockquote mb-0">
-                                    <p>A well-known quote, contained in a blockquote element.</p>
+                                    <p>Congratulations to myself! I finished the course with lot of knowledge acquired
+                                        from it!</p>
                                     <img src="images/student/student-6.png" alt="">
                                     <br>
-                                    <footer class="blockquote-footer ms-5">Someone famous in <cite
-                                            title="Source Title">Source Title</cite></footer>
+                                    <footer class="blockquote-footer ms-5">Marta Wayne, famous developer..<cite
+                                            title="Source Title">(The Sauce)</cite></footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -392,22 +398,23 @@
                             </div>
                             <div class="card-body">
                                 <blockquote class="blockquote mb-0">
-                                    <p>A well-known quote, contained in a blockquote element.</p>
+                                    <p>Great lessons, the instructor, Sir was fantastic.</p>
                                     <img src="images/student/student-5.png" alt="">
                                     <br>
-                                    <footer class="blockquote-footer ms-5">Someone famous in <cite
-                                            title="Source Title">Source Title</cite></footer>
+                                    <footer class="blockquote-footer ms-5">Joy Vandarii <cite title="Source Title">(The
+                                            Calcutta Bhoothnaath)</cite></footer>
                                 </blockquote>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev d-none d-md-inline rounded-circle bg-info bg-opacity-25"
+                <!-- how do I make these button the right size? -->
+                <button class="carousel-control-prev d-none d-xxl-inline rounded-circle bg-info bg-opacity-25"
                     type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next d-none d-md-inline rounded-circle bg-info bg-opacity-25"
+                <button class="carousel-control-next d-none d-xxl-inline rounded-circle bg-info bg-opacity-25"
                     type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -415,7 +422,7 @@
             </div>
         </section>
         <br>
-        <!-- 7th section -->
+        <!-- 7th section -- FAQ's -->
         <section class="px-5 mb-5">
             <h1 class="text-center fw-bolder">FAQ</h1>
             <p class="text-center">Learners around the world are launching new careers, advancing in their fields, and
@@ -501,7 +508,7 @@
             </div>
         </section>
         <br>
-        <!-- 8th section -->
+        <!-- 8th section -- partners -->
         <section class="my-5 d-none d-lg-block">
             <div class="rounded bg-light py-4">
                 <h1 class="text-center my-2 fw-bold">Our Trusted Partners</h1>
